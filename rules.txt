@@ -1,1 +1,76 @@
+key points:
+	•	skirmish game designed to incorporate creative terrain without needing to use a tape measure
+	•	the game is played on a board containing blocks, with models generally moving freely outside of blocks or within a block
+	•	players take turns activating models to accomplish objectives or engage in combat… look, it’s basically malifaux
+
+basic actions: all models can take basic actions
+	•	2ap move: move the model to a new position along a path
+	•	2ap charge (focus): push the model into engagement range with another model along a path with no barriers, then take a melee attack action against that model.  Reduce the cost of the melee attack by 2ap
+	•	1ap interact (focus): do a thing within 1”
+	•	1ap shove: 1” 1dmg +str -hgt
+	◦	this melee attack instead pushes the target 1” for each damage
+	•	0ap pass: reduce the model’s ap to 1 if greater than 1 and end its activation
+	•	1ap overwatch (focus): the model gains overwatch; end the model’s activation
+
+move: movement occurs along a path that starts at the model’s initial position
+	•	models can spend an additional 1ap when declaring a move to move quick (avoid fire etc.)
+	•	if a model moves into an enemy model’s engagement range, that model’s controller may end the move by taking a melee attack action at +1ap against the model
+	•	if a model moves in an enemy model’s sight, that enemy model may take a ranged attack at +1ap against the model; if the attack hits, instead of dealing damage the move ends
+	◦	If the enemy model has overwatch, the cost of the attack is not increased and it deals damage
+
+push: a move that occurs in a straight line and which cannot cross barriers
+
+actions: models have actions that cost ap and which do various things
+
+path: the space a model moves across while moving.  Paths cannot extend past the boundary of a block.  Paths can contain obstacles but not impassables.
+Obstacles in a path fall into the following categories:
+	•	barrier: must spend 1ap to climb onto/over; any surface sufficiently vertical that a model cannot be placed on it is a barrier
+	•	gap: any gap larger than the base of the model requires 1ap to jump over
+	•	effect: terrain may apply an effect when moved through
+	Impassables are objects with the impassable trait.  Large obstacles gain the impassable trait:
+	•	impassable barrier: any barrier taller than 3”
+	•	impassable gap: any open space larger than 3”
+	•	models have the impassable trait unless otherwise specified
+
+sightline: any line that can be drawn from the center of a model through that model’s vision arc (see Fig SL1).  Sightlines cannot go through objects (see Fig SL2).  For the purpose of sightlines, models are cylinders with the model’s base and height
+
+
+
+vision arc: each model has a section of their base that indicates the direction they are facing and what they can see.  A model is facing an object if a line drawn from the center of each goes through the model’s vision arc
+
+engagement range: usually the melee range of a model, measured from the edge of its base.
+	•	When a model enters the engagement range of one or more enemy models, it must face one of those models
+	•	While a model is in the engagement range of an enemy model, it cannot take actions that require focus
+	•	Moving while engaged costs an extra 1ap but does not count as moving into an enemy’s engagement range
+
+focus: actions marked with (focus) require focus, and cannot be taken while engaged or under an effect that prevents focus
+
+attacks work like malifaux: the model and the target (if any) flip cards and add the relevant stat; if the attacker matches or beats the target’s number, the attack succeeds.  Some actions allow models to spend ap to flip additional cards (or cause the enemy to flip additional cards and choose the lowest).  Players have a hand of cards that they can use to replace a flipped card
+
+
+basic models
+
+grunt   6hp 6ap 2str 2def 1skl 2mtl
+2ap basic melee: 1” 2dmg +str -def
+1ap (focus) basic ranged: 1dmg +skl -def
+
+ranged   4hp 6ap 1str 1def 2skl 2mtl
+	•	slow
+2ap bad melee: 1” 1dmg +str -def
+1ap (focus) basic ranged: 1dmg +skl -def
+2ap (focus) good ranged: 2dmg +skl -def
+	•	+1skl per extra ap spent
+
+medic  5hp 6ap 1str 2def 2skl 2mtl
+	•	slow
+2ap bad melee: 1” 1dmg +str -def
+1ap (focus) basic ranged: 1dmg +skl -def
+2ap heal: 1” +skl 6
+	•	target heals 1hp
+
+scout  4hp 6ap 1str 1def 2skl 1mtl
+	•	fast
+2ap bad melee: 1” 1dmg +str -def
+1ap (focus) basic ranged: 1dmg +skl -def
+
 
