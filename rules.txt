@@ -38,6 +38,11 @@ PRONE: a model that is prone receives some kind of disadvantage to its actions a
 
 attacks work like malifaux: the model and the target (if any) flip cards and add the relevant stat; if the attacker matches or beats the target’s number, the attack succeeds.  Some actions allow models to spend ap to flip additional cards (or cause the enemy to flip additional cards and choose the lowest).  Players have a hand of cards that they can use to replace a flipped card
 
+THE FUN STUFF:
+	•	vault over a model: can spend 1ap during a move to vault over a model; on success, may land on the highest surface within 1" of the vaulted model; on failure drop the vaulting model onto the vaulted model and it ends up prone
+	•	explosion: push models away from explosion
+	•	fall: models take a point of fall damage any time they are pushed from a height of 2" or more; any models fallen onto take a point of damage
+
 
 BASIC ACTIONS: all models can take basic actions
 	•	2ap move: move the model to a new position along a path
