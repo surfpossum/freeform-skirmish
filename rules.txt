@@ -6,7 +6,7 @@ KEY POINTS:
 MOVE: movement occurs along a path that starts at the model’s initial position and ends at its final position
 	•	models can spend an additional 1ap when declaring a move to move quick (avoid fire etc.)
 	•	if a model moves into an enemy model’s engagement range, that model’s controller may end the move by taking a melee attack action at +1ap against the model
-	•	if a model moves in an enemy model’s sight, that enemy model may take a ranged attack at +1ap against the model; if the attack hits, instead of taking damage the model goes prone
+	•	if a model starts or ends a move in an enemy model’s sight, that enemy model may take a ranged attack at +1ap against the model; if the attack hits, instead of taking damage the model goes prone
 	◦	If the enemy model has overwatch, the cost of the attack is not increased and it deals damage
 
 PUSH: a move that occurs in a straight line and which cannot cross barriers
@@ -52,6 +52,7 @@ BASIC ACTIONS: all models can take basic actions
 	◦	this melee attack instead pushes the target 1” for each damage
 	•	0ap pass: reduce the model’s ap to 1 if greater than 1 and end its activation
 	•	1ap overwatch (focus): the model gains overwatch; end the model’s activation
+   - something like overmatch tokens to mark which areas they're watching and can have overwatch triggered in
 
 
 basic models
