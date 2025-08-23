@@ -1,0 +1,29 @@
+basic models
+
+name    health  actionPoints  strength  defense  skill  mental
+	•	abilities
+actionCost  actionName: range  damage  stat  check
+	•	effects
+
+grunt   6hp 6ap 2str 2def 1skl 2mtl
+2ap basic melee: 1” 2dmg +str -def
+1ap (focus) basic ranged: 1z 1dmg +skl -def
+
+ranged   4hp 6ap 1str 1def 2skl 2mtl
+	•	slow
+2ap bad melee: 1” 1dmg +str -def
+1ap (focus) basic ranged: 2z 1dmg +skl -def
+2ap (focus) good ranged: 2z 2dmg +skl -def
+	•	+1skl per extra ap spent
+
+medic  5hp 6ap 1str 2def 2skl 2mtl
+	•	slow
+2ap bad melee: 1” 1dmg +str -def
+1ap (focus) basic ranged: 1z 1dmg +skl -def
+2ap heal: 1” +skl 6
+	•	target heals 1hp
+
+scout  4hp 6ap 1str 1def 2skl 1mtl
+	•	fast
+2ap bad melee: 1” 1dmg +str -def
+1ap (focus) basic ranged: 1z 1dmg +skl -def
