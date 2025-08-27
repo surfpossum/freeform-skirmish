@@ -1,5 +1,11 @@
-Each player sets up all their models in their starting zone, then flip for initiative.  Whoever wins gets to choose who activates first.
+Players set up a board with a starting zone for each player and at least 3 zones not adjacent to any starting zone.  Players then set up any markers based on the scenario.
 
-Players take turns by choosing a model that has ap, taking actions with it, and then passing.
+Players flip for initiative.  Whoever wins chooses who activates first, and then players take turns setting up a model wholly within their starting zone, starting with the player activating first.
+
+Players take turns by choosing a model that has ap, taking actions with it, and then passing.  Models can take basic actions or actions on items they have equipped.
+
+Models can "see" models that are in the direction they are facing, with models that are mostly obscured by terrain being in cover.
 
 Once there are no models left to activate, the turn ends.
+
+Points are scored based on the scenario.
