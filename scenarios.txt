@@ -1,0 +1,3 @@
+king of the hill: One player selects a zone that is the same distance from each starting zone, then the other player places a goal marker in that zone.  At the end of each turn, if only one player has a model in the zone with the goal marker, that player scores a point.  If only one player has a model touching the goal marker, that player scores a point.
+
+lootenanny: Each player receives 3 goal markers and 3 loot markers, then takes turns placing them face down in any zone not adjacent to their starting zone.  Models 
