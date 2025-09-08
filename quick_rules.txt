@@ -10,4 +10,4 @@ Models can "see" models that are in the direction they are facing, with models t
 
 Once there are no models left to activate, the turn ends.
 
-Points are scored based on the scenario.
+Points are scored based on the scenario.  Test edit
