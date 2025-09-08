@@ -13,19 +13,19 @@ PUSH: a move that occurs in a straight line and which cannot cross barriers
 
 ACTIONS: models have actions that cost ap and which do various things
 
-PATH: the space a model moves across while moving.  Paths cannot extend past the boundary of a block.  Paths can contain obstacles but not impassables.
+PATH: the space a model moves across while moving.  Paths cannot extend past the boundary of a block.  Paths can contain obstacles but not impassables.
 	Obstacles in a path fall into the following categories:
 	•	barrier: must spend 1ap to climb onto/over; any surface sufficiently vertical that a model cannot be placed on it is a barrier
 	•	gap: any gap larger than the base of the model requires 1ap to jump over
 	•	effect: terrain may apply an effect when moved through
-	Impassables are objects with the impassable trait.  Large obstacles gain the impassable trait:
+	Impassables are objects with the impassable trait.  Large obstacles gain the impassable trait:
 	•	impassable barrier: any barrier taller than 3”
 	•	impassable gap: any open space larger than 3”
 	•	models have the impassable trait unless otherwise specified
 
-SIGHTLINE: any line that can be drawn from the center of a model through that model’s vision arc.  Sightlines cannot go through objects.  For the purpose of sightlines, models are cylinders with the model’s base and height
+SIGHTLINE: any line that can be drawn from the center of a model through that model’s vision arc.  Sightlines cannot go through objects.  For the purpose of sightlines, models are cylinders with the model’s base and height
 
-VISION ARC: each model has a section of their base that indicates the direction they are facing and what they can see.  A model is facing an object if a line drawn from the center of each goes through the model’s vision arc
+VISION ARC: each model has a section of their base that indicates the direction they are facing and what they can see.  A model is facing an object if a line drawn from the center of each goes through the model’s vision arc
 
 ENGAGEMENT RANGE: usually the melee range of a model, measured from the edge of its base.
 	•	When a model enters the engagement range of one or more enemy models, it must face one of those models
@@ -36,7 +36,7 @@ FOCUS: actions marked with (focus) require focus, and cannot be taken while enga
 
 PRONE: a model that is prone receives some kind of disadvantage to its actions and must spend ap to end the prone condition
 
-attacks work like malifaux: the model and the target (if any) flip cards and add the relevant stat; if the attacker matches or beats the target’s number, the attack succeeds.  Some actions allow models to spend ap to flip additional cards (or cause the enemy to flip additional cards and choose the lowest).  Players have a hand of cards that they can use to replace a flipped card
+attacks work like malifaux: the model and the target (if any) flip cards and add the relevant stat; if the attacker matches or beats the target’s number, the attack succeeds.  Some actions allow models to spend ap to flip additional cards (or cause the enemy to flip additional cards and choose the lowest).  Players have a hand of cards that they can use to replace a flipped card
 
 ATTACK: the model selects a target within range that it can see and turns to face it.  The attacking model and the defending model each flip, with the attacker adding the +stat listed and the defender adding the -stat.  If the attacker's total is less than the defender's, the attack misses; otherwise it hits and does damage equal to the dmg listed.  Any effects of the attack are resolved if the attack hits.
 
@@ -48,7 +48,7 @@ THE FUN STUFF:
 
 BASIC ACTIONS: all models can take basic actions
 	•	2ap move: move the model to a new position along a path
-	•	2ap charge (focus): push the model into engagement range with another model along a path with no barriers, then take a melee attack action against that model.  Reduce the cost of the melee attack by 2ap.
+	•	2ap charge (focus): push the model into engagement range with another model along a path with no barriers, then take a melee attack action against that model.  Reduce the cost of the melee attack by 2ap.
 	•	1ap interact (focus): do a thing within 1”
 	•	1ap shove: 1” 1dmg +str -hgt
 		◦	this melee attack instead pushes the target 1” for each damage
