@@ -6,7 +6,7 @@ Players take turns by choosing a model that has more than 1ap, taking actions wi
 
 Models can move anywhere within their current zone while taking a move action.  Crossing obstacles requires additional ap, and moving in an enemy's sight allows them to take a shot.
 
-Models can "see" models that are in the direction they are facing, with models that are mostly obscured by terrain being in cover.
+Models can "see" models that are in the direction they are facing, with models that are obscured by terrain being in cover.
 
 Once there are no models left to activate, the turn ends.
 
